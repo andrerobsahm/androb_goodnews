@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf6ea;
+}
+
+article {
+  display: block;
+  background-color: tomato;
+  width: 600px;
+  height: 400px;
+}
