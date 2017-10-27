@@ -39,6 +39,7 @@ require __DIR__.'/functions.php';
       <article class="blogitem">
         <div class="post-top">
           <h1><?php echo $post['title']; ?></h1>
+          <hr>
         </div>
 
         <div class="post-title">

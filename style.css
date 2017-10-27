@@ -34,9 +34,21 @@ h1 {
   text-shadow: 1px 1px #000;
   text-align: center;
 }
+.post-top h1{
+  margin-bottom: 5px;
+
+}
 h2 {
   text-shadow: 1px 1px #fff;
   font-size: 25px;
+}
+
+hr {
+  color: gold;
+  margin: 0 20%;
+  border-style:solid;
+    border-width: 2px;
+
 }
 
 .wrapper {
