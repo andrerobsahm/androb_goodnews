@@ -1,25 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
 * {
   box-sizing: border-box;
 }
 
+
 body {
-  background-color: white;
+  background-image: url(./images/background_2.jpg);
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
   margin: 0 25%;
 
 }
 
 p {
-  color: black;
+  color: white;
   font-size: 18px;
-  font-family: Avenir;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+h1, h2 {
+  font-family: 'Berkshire Swash', cursive;
+
 }
 
 h1 {
-  font-family: Poiret One;
   font-size: 35px;
+  color: gold;
+  text-shadow: 1px 1px #000;
+}
+h2 {
+  text-shadow: 1px 1px #fff;
+  font-size: 25px;
 }
 
 .wrapper {
@@ -27,7 +42,7 @@ h1 {
   flex-direction: column;
   align-content: center;
   justify-content: center;*/
-  background-color: #faf6ea;
+  /*background-color: #faf6ea;*/
   width: 700px;
   padding: 5% 10%;
 }
@@ -37,12 +52,25 @@ h1 {
   background-color: tomato;
   color: black;
   width: 500px;
-  height: 500px;
+  height: auto;
   padding: 20px;
-  overflow: auto;
+  /*overflow: auto;*/
+}
+
+.post-top {
+
+}
+
+.post-content {
+
 }
 
 .post-bottom p{
 display: flex;
 flex-wrap: wrap;
+font-size: 11px;
+}
+
+.like-button {
+  width:25px;
 }

@@ -11,23 +11,32 @@ require __DIR__.'/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    <title>Your 'Good News' in the morning</title>
+    <title>The fellowship</title>
   </head>
   <body>
-    <h1 id=''>The Blog</h1>
+    <h1 id=''>The fellowship</h1>
 
-<?php foreach ($newsFeed as $post) {?>
-  <div class="wrapper">
-    <article class="blogitem">
-        <h1><?php echo $post['title']; ?></h1>
-        <h3><?php echo $post['author']['name']?></h3>
-        <p><?php echo $post['content']; ?></p>
-      <div class="post-bottom">
-        <p><?php echo $post['pub']; ?></p>
-        <p><?php echo $post['like']; ?></p>
+  <?php foreach ($newsFeed as $post) {?>
+    <div class="wrapper">
+      <article class="blogitem">
+        <div class="post-top">
+          <h1><?php echo $post['title']; ?></h1>
+          <h2><?php echo $post['author']['name']?></h2>
+        </div>
+        <div class="post-content">
+            <p><?php echo $post['content']; ?></p>
+        </div>
+
+        <div class="post-bottom">
+          <p>Published: <?php echo $post['pub']; ?></p>
+        </div>
+        <div>
+          <img class="like-button" src="images/sauron.png" alt="the eye of sauron">
+          <p><?php echo $post['like']; ?></p>
+        </div>
+      </article>
     </div>
-  </article>
-<?php } ?>
-    </div>
+  <?php } ?>
+
   </body>
 </html>
