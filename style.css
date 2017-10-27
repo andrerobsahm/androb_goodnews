@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
+html {
+
+}
 
 body {
   background-image: url(./images/background_2.jpg);
   /*background-repeat: no-repeat;*/
   background-attachment: fixed;
-  margin: 0 25%;
 
 }
 
@@ -24,13 +26,13 @@ p {
 
 h1, h2 {
   font-family: 'Berkshire Swash', cursive;
-
 }
 
 h1 {
   font-size: 35px;
   color: gold;
   text-shadow: 1px 1px #000;
+  text-align: center;
 }
 h2 {
   text-shadow: 1px 1px #fff;
@@ -43,34 +45,54 @@ h2 {
   align-content: center;
   justify-content: center;*/
   /*background-color: #faf6ea;*/
-  width: 700px;
-  padding: 5% 10%;
+  /*padding: 5% 10%;*/
 }
 
 .blogitem {
-  /*display: block;*/
   background-color: tomato;
+  opacity: 0.8;
   color: black;
-  width: 500px;
+  width: 550px;
   height: auto;
-  padding: 20px;
-  /*overflow: auto;*/
+  padding: 1% 20px;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .post-top {
-
+background-color:;
 }
 
-.post-content {
+.post-title p{
+  font-size: 11px;
+}
 
+.post-content {}
+
+.post-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
 }
 
 .post-bottom p{
-display: flex;
-flex-wrap: wrap;
-font-size: 11px;
+  font-size: 14px;
 }
 
-.like-button {
-  width:25px;
+.button {
+  background: url('/images/sauron.png') no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 35px;
+  margin-right: 5px;
+  transition-duration: 0.4s;
+  border:1px solid transparent;
+
+}
+.button:hover {
+  /*opacity: 0.8;*/
+  background-color: black;
+  border-radius: 2px;
 }
