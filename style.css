@@ -1,14 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #faf6ea;
+  background-color: white;
+  margin: 0 25%;
+
 }
 
-article {
-  display: block;
+p {
+  color: black;
+  font-size: 18px;
+  font-family: Avenir;
+}
+
+h1 {
+  font-family: Poiret One;
+  font-size: 35px;
+}
+
+.wrapper {
+  /*display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;*/
+  background-color: #faf6ea;
+  width: 700px;
+  padding: 5% 10%;
+}
+
+.blogitem {
+  /*display: block;*/
   background-color: tomato;
-  width: 600px;
-  height: 400px;
+  color: black;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.post-bottom p{
+display: flex;
+flex-wrap: wrap;
 }
