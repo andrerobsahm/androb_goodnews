@@ -35,30 +35,39 @@ require __DIR__.'/functions.php';
     <h1>The fellowship Blog</h1>
 
   <?php foreach ($newsFeed as $post): ?>
-    <div class="wrapper">
+    <section>
       <article class="blogitem">
         <div class="post-top">
           <h1><?php echo $post['title']; ?></h1>
-          <hr>
+            <hr>
         </div>
 
-        <div class="post-title">
-          <img class="profile-pic" src="<?php echo $post['author']['profile'] ?>">
-          <h2><?php echo $post['author']['name']?></h2>
-          <p><?php echo 'Published: ' . $post['pub']; ?></p>
+        <div class="post-profile">
+          <div class="author">
+            <h2><?php echo $post['author']['name']?></h2>
+          </div>
+          <div>
+            <img class="profile-pic" src="<?php echo $post['author']['profile'] ?>">
+          </div>
         </div>
 
         <div class="post-content">
             <p><?php echo $post['content']; ?></p>
         </div>
 
+        <hr class="hr-bottom">
+
         <div class="post-bottom">
-          <button class="button" type="button" alt="Like"></button>
-          <p><?php echo $post['like']; ?></p>
+          <p class="published"><?php echo 'Published: ' . $post['pub']; ?></p>
+            <div class="like-box">
+                <button class="button" type="button" alt="Like"></button>
+                <p class="like"><?php echo $post['like']; ?></p>
+            </div>
         </div>
       </article>
-    </div>
+    </section>
   <?php endforeach;  ?>
 
+<p class="copy">&copy; André Robsahm, Yrgo, <?php echo date('Y'); ?></p>
   </body>
 </html>

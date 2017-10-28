@@ -13,22 +13,19 @@ $newsFeed = [
  ],
 
  ['author' => ['name' => 'Legolas', 'id' => 1001, 'profile' => '/images/legolas.jpg'],
-  'title' => 'Glorious baklava', 'pub' => '2017-05-28', 'like' => 12, 'content' => "Duis
-  autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-  vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-  dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait
-  nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+  'title' => 'Glorious baklava', 'pub' => '2017-05-28', 'like' => 12, 'content' => "
+  It is not the eastern shore that worries me. A shadow and a threat has been
+  growing in my mind. Something draws near. I can feel it."
 ],
 
   ['author' => ['name' => 'Gandalf the white', 'id' => 1002, 'profile' => 'images/gandalf_the_white.jpg'],
-  'title' => 'Nae saian luume', 'pub' => '2017-01-20', 'like' => 10, 'content' =>
+  'title' => 'The Ring has awoken!', 'pub' => '2017-01-20', 'like' => 10, 'content' =>
   "The Ring has awoken, it’s heard its masters call. The board is set, the pieces
   are moving. We come to it at last, the great battle of our time."
 ],
 
   ['author' => ['name' => 'Gandalf the white', 'id' => 1002, 'profile' => '/images/gandalf_the_white.jpg'],
-  'title' => 'Magna aliquam', 'pub' => '2017-05-16', 'like' => 9, 'content' => "Well, what can I tell
+  'title' => 'I am very thankful', 'pub' => '2017-05-16', 'like' => 9, 'content' => "Well, what can I tell
   you? Life in the wide world goes on much as it has this past Age, full of its own
   comings and goings, scarcely aware of the existence of Hobbits, for which I am very thankful."
 ],
@@ -67,7 +64,7 @@ $newsFeed = [
 ],
 
   ['author' => ['name' => 'Gollum', 'id' => 1005, 'profile' => '/images/gollum.jpg'],
-  'title' => 'Pooor smeagol', 'pub' => '2017-07-03', 'like' => 5, 'content' => "Not fair!
+  'title' => 'Pooor smeagol', 'pub' => '2017-06-05', 'like' => 5, 'content' => "Not fair!
   Not fair! It isn't fair, my precious, is it, to ask us what it's got in it's
   nassty little pocketsess?"
 ],
