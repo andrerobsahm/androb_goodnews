@@ -29,10 +29,10 @@ require __DIR__.'/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    <title>The fellowship Blog</title>
+    <title>The Fellowship Of The Ring</title>
   </head>
   <body>
-    <h1 id=''>The fellowship Blog</h1>
+    <h1>The fellowship Blog</h1>
 
   <?php foreach ($newsFeed as $post): ?>
     <div class="wrapper">
@@ -43,6 +43,7 @@ require __DIR__.'/functions.php';
         </div>
 
         <div class="post-title">
+          <img class="profile-pic" src="<?php echo $post['author']['profile'] ?>">
           <h2><?php echo $post['author']['name']?></h2>
           <p><?php echo 'Published: ' . $post['pub']; ?></p>
         </div>

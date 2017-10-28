@@ -108,3 +108,9 @@ background-color:;
   background-color: black;
   border-radius: 2px;
 }
+
+.profile-pic {
+  width: 25%;
+  border: 5px solid gold;
+  border-radius: 60px;
+}
