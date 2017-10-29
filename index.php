@@ -3,9 +3,6 @@ declare(strict_types=1);
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
-// The repository should have at least 10 commits
-// The repository must contain a .editorconfig file with your preferred settings.
-// The project must be tested on at least two of your classmates computers.
 ?>
 
 <!DOCTYPE html>
